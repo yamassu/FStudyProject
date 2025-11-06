@@ -13,14 +13,16 @@ if not tasks:
 print("No tasks available.") 
 return 
 for task in tasks: 
-status = "Done" if task["completed"] else "Pending" 
-print(f"{task['id']}: {task['description']} [{status}]") 
+    status = "Done" if task["completed"] else "Pending" 
+    print(f"{task['id']}: {task['description']} [{status}]") 
+
 def mark_completed(task_id): 
-for task in tasks: 
-if task["id"] == task_id: 
-task["completed"] = True 
-print(f"Task ID {task_id} marked as completed.") 
+    for task in tasks: 
+    if task["id"] == task_id: 
+    task["completed"] = True 
+    print(f"Task ID {task_id} marked as completed.") 
 return 
+
 print(f"No task found with ID {task_id}.") 
 def delete_task(task_id): 
     global tasks 
