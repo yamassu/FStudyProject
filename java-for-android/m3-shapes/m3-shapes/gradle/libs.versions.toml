@@ -1,0 +1,42 @@
+[versions]
+agp = "8.7.3"
+java = "11"
+kotlin = "2.0.21"
+compileSdk = "35"
+minSdk = "22"
+targetSdk = "35"
+versionCode = "3"
+versionName = "3.0"
+
+junit = "4.13.2"
+appcompat = "1.7.0"
+material = "1.12.0"
+constraintLayout = "2.2.0"
+commonsLang3 = "3.10"
+fluent = "1.3.0"
+guava = "31.1-android"
+commonsIo = "20030203.000550"
+commonsText = "1.8"
+commonsCollections = "3.2.2"
+gradleDockerPlugin = "6.4.0" # Must remain 6.4.0!
+grgitGradle = "4.1.1"
+grgit = "1.7.2"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintLayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintLayout" }
+guava = { group = "com.google.guava", name = "guava", version.ref = "guava" }
+commonsText = { group = "org.apache.commons", name = "commons-text", version.ref = "commonsText" }
+gradleDockerPlugin = { module = "com.bmuschko:gradle-docker-plugin", version.ref = "gradleDockerPlugin" }
+grgitGradle = { module = "org.ajoberstar.grgit:grgit-gradle", version.ref = "grgitGradle" }
+grgit = { module = "org.ajoberstar:grgit", version.ref = "grgit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+[bundles]
+androidCore = ["appcompat", "material", "constraintLayout"]
+testing = ["junit", "commonsText"]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mooc.vandy.java4android.shapes.logic.UnitTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-11-11T17:08:46" hostname="DESKTOP-0PM850I" time="0.005">
+  <properties/>
+  <testcase name="testCircleArea" classname="mooc.vandy.java4android.shapes.logic.UnitTests" time="0.0"/>
+  <testcase name="testRightTrianglePerimeter" classname="mooc.vandy.java4android.shapes.logic.UnitTests" time="0.001"/>
+  <testcase name="testRightTriangleArea" classname="mooc.vandy.java4android.shapes.logic.UnitTests" time="0.001"/>
+  <testcase name="testRectangleArea" classname="mooc.vandy.java4android.shapes.logic.UnitTests" time="0.0"/>
+  <testcase name="testRectanglePerimeter" classname="mooc.vandy.java4android.shapes.logic.UnitTests" time="0.0"/>
+  <testcase name="testCircleCircumference" classname="mooc.vandy.java4android.shapes.logic.UnitTests" time="0.0"/>
+  <testcase name="testBoxSurfaceArea" classname="mooc.vandy.java4android.shapes.logic.UnitTests" time="0.0"/>
+  <testcase name="testSphereVolume" classname="mooc.vandy.java4android.shapes.logic.UnitTests" time="0.0"/>
+  <testcase name="testSphereSurfaceArea" classname="mooc.vandy.java4android.shapes.logic.UnitTests" time="0.0"/>
+  <testcase name="testBoxVolume" classname="mooc.vandy.java4android.shapes.logic.UnitTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
